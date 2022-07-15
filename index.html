@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="/Test/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header_wrapper">
+            <button class="btn_header">Каталог</button>
+            <div class="wrapper_search">
+                <input class="search" type="text" placeholder="Я ищу...">
+            </div>
+            <div class="header_icons">
+                <div class="icon">
+                    <img src="/img/loupe.svg" alt="loupe" class="loupe">
+                </div>
+                <div class="icon">
+                    <div class="icon_square"></div>
+                    <img src="/img/basket.svg" alt="basket" class="basket">
+                    <h4 class="title_icon">Корзина</h4>
+                </div>
+                <div class="icon">
+                    <img src="/img/profile.svg" alt="profile" class="profile">
+                    <h4 class="title_icon">Профиль</h4>
+                </div>
+                <div class="icon">
+                    <div class="icon_like"></div>
+                    <img src="/img/like.svg" alt="like" class="like">
+                    <h4 class="title_icon">Нравится</h4>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="wrapper_main">
+            <div class="wrapper">
+                <div class="main_path">
+                    <h5 class="title_main">Главная</h5>
+                    <img class="arrow" src="/img/arrow.svg" alt="arrow">
+                    <h5 class="subtitle_main">Умная площадка</h5>
+                </div>
+                <div class="main_info">
+                    <div class="wrapper_main_title">
+                        <h1 class="title_main_info">Умная спортивная площадка </h1><h1 class="title_main_info title_hide">по приказу №107 ОТ 23.03.2022</h1> 
+                    </div>
+                    <div class="wrapper_main_subtitle">
+                        <h2 class="subtitle_main_info">Уличная площадка с тренажерным комплексом из 21 тренажера.</h2>
+                        <h2 class="subtitle_main_info subtitle_hide">Для иллюстрации упражнений лучше конечно использовать 
+                            анимацию, пусть и простую. Сможем ли мы получить исходники изображений в векторе (svg)? Нам так было бы удобнее делать 
+                            анимацию. Размер изображений для разных упражнений должен быть одинаковый по размеру и пропорциям. Для каждого 
+                            изображений одного упражнения - оборудование должно быть неподвижно и находиться в одном месте</h2> 
+                    </div>
+                </div>
+                <div class="wrapper_main_btn">
+                    <button class="btn_main_info">Оборудование в каталоге</button>
+                </div>
+                <div class="exercise">
+                    <div class="wrapper_exercise stretch">
+                        <img class="img_exercise" src="/img/stretch.png" alt="stretch">
+                        <div class="back_exercise">
+                            <div class="exercise_icon">
+                                <img src="/img/icon.png" alt="icon" class="img_icon">
+                            </div>
+                            <h3 class="title_exercise">Разминка</h3>
+                            <h4 class="subtitle_exercise">10-15 мин. | 8 упражнений</h4>
+                        </div>
+                    </div>
+                    <div onclick="location.href='/pages/program1/index.html'" class="wrapper_exercise program1">
+                        <img class="img_exercise" src="/img/program1.png" alt="program1">
+                        <div class="back_exercise">
+                            <div class="exercise_icon">
+                                <img src="/img/icon.png" alt="icon" class="img_icon">
+                            </div>
+                            <h3 class="title_exercise">Программа 1</h3>
+                            <h4 class="subtitle_exercise">3 недели | 6 упражнений</h4>
+                        </div>
+                    </div>
+                    <div class="wrapper_exercise program2">
+                        <img class="img_exercise" src="/img/program2.png" alt="program2">
+                        <div class="back_exercise">
+                            <div class="exercise_icon">
+                                <img src="/img/icon.png" alt="icon" class="img_icon">
+                            </div>
+                            <h3 class="title_exercise">Программа 2</h3>
+                            <h4 class="subtitle_exercise">6 недель | 10 упражнений</h4>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        
+    </main>
+</body>
+</html>
